@@ -1,0 +1,54 @@
+@import './button.css';
+@import './project-card.css';
+
+button{
+  cursor:pointer;
+}
+
+.diagonal-spacer {
+  height: 100px;
+  transform: skewY(-2deg);
+  transform-origin: top left;
+  &.diagonal-spacer--alt{
+    transform: skewY(2deg);
+  }
+}
+
+.site-header{
+  nav{
+    li{
+      a {
+        text-transform:uppercase;
+        font-weight:bold;
+      }
+    }
+  }
+}
+
+.site-footer{
+  position:relative;
+  z-index:1;
+}
+
+.site-logo{
+  display:block;
+  position: relative;
+  font-size: 40px;
+  text-shadow: 1px 1px 1px #000;
+  font-style: italic;
+  &:hover{
+    background-color:purple;
+  }
+  &:after{
+    content: 'J';
+    position: absolute;
+    left: 34px;
+    top: -16px;
+    font-size: 60px;
+    text-shadow: none;
+    font-weight: 300;
+    font-style: normal;
+    color: #fff;
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  }
+}
