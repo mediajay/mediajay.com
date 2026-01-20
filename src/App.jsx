@@ -132,7 +132,7 @@ export default function PortfolioHome() {
         <div className="mx-auto max-w-7xl py-16 px-5">
           <header className="mb-8 flex items-end justify-between">
             <div>
-              <p className="text-xs uppercase tracking-widest text-neutral-500">Projects</p>
+              <p className="text-xs uppercase tracking-widest text-neutral-500">Projects Here</p>
               <h2 className="mt-1 text-2xl font-bold md:text-3xl">Explore My Recent Work</h2>
               <p className="mt-2 max-w-2xl text-neutral-600">I've lead front end development on many sites for prominent orgnaizations over the years showcasing responsive interfaces, accessible design, and performance‑focused builds.</p>
             </div>
